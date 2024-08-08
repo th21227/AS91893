@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAF7F6;
+}
+
+#pageContainer {
+    width: 1700px;
+    background-color: #ABDBE3;
+    height: 2000px;
+    margin: 0 auto;
+    margin-top: -10px;
+    box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175);
+}
+
+header {
+    width: 1700px;
+    height: 200px;
+    background-color: #29ACB9;
+    position: fixed;
+}
+
+#logo {
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#logoContainer {
+    clip-path: circle(53% at 35% 31%);
+    background-color: #EAF7F6;
+    width: 350px;
+    height: 350px;
+    z-index: 3;
+    position: fixed;
+}

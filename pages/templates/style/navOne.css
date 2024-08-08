@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAF7F6;
+}
+
+#pageContainer {
+    width: 1700px;
+    background-color: #ABDBE3;
+    height: 2000px;
+    margin: 0 auto;
+    margin-top: -10px;
+    box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175);
+}
+
+#headerContainer {
+    width: 1700px;
+    height: 400px;
+    text-align: center;
+    float: left;
+    background-color: #29ACB9;
+    position: fixed;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0, 100% 32%, 0 54%);
+}
+
+#logoContainer {
+    clip-path: circle(53% at 35% 31%);
+    background-color: #EAF7F6;
+    width: 350px;
+    height: 350px;
+    z-index: 3;
+    position: fixed;
+}
+
+nav {
+    height: 90px;
+    clear: both;
+    text-align: center;
+}
+
+nav ul {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    margin-top: -10px;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px 30px 20px 30px;
+    font-size: 10pt;
+    font-weight: 600;
+    color: black;
+    background-color: #ABDBE3;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+nav li a:hover {
+    box-shadow: 0px 0px 30px 10px #228E96;
+}
+
+#logo {
+    width: 250px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#secondarylinks {
+    height: 90px;
+    clear: both;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    margin-top: -10px;
+    float: right;
+    margin-right: 400px;
+}
+
+#secondarylinks li {
+    display: inline-block;
+}
+
+#secondarylinks li a {
+    display: block;
+    width: 160px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: 600;
+    color: white;
+    background-color: #228E96;
+    margin-right: 60px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#secondarylinks li a:hover {
+    box-shadow: 0px 0px 15px 5px #1c777e;
+}
