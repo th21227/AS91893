@@ -74,18 +74,28 @@ nav li a:hover {
     padding-top: 10px;
 }
 
-.hide {
+
+.dropdown-content {
     display: none;
+    position: absolute;
+    border-radius: 20px;
+}
+  
+
+.dropdown-content a {
+    width: 130px;
+    padding: 5px 0px;
+    border-radius: 0px;
+    margin-left: 20px;    
 }
 
-#dropdownSize:hover {
-    height: 400px;
-    background-color: #228E96;
-}
 
-.dropdown:hover + .hide {
-    z-index: 6;
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
+.dropdown-content a:hover {
+    background-color: #228E96;
+    color: white;
+}
 
