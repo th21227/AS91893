@@ -6,7 +6,7 @@ body {
 #pageContainer_index {
     width: 1700px;
     background-color: #ABDBE3;
-    height: 2000px;
+    height: 3000px;
     margin: 0 auto;
     margin-top: -10px;
     box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175);
@@ -149,3 +149,48 @@ footer a {
     font-size: 20px;
 }
 
+#index_information {
+    width: 1000px;
+    text-align: center;
+    height: 600px;
+    margin: 80px 0px 0px 350px;
+}
+
+#index_information h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#index_information img {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#index_information ul {
+    margin-top: 50px;
+}
+
+#index_information li {
+    float: left;
+    display: block;
+    margin: 0px 30px 0px 30px;
+    height: 300px;
+}
+
+#index_information h3 {
+    width: 100px;
+    padding: 3px;
+    margin: 20px 0px 0px 147px;
+    background-color: #EAF7F6;
+    border-radius: 20px;
+}
+
+#index_information a {
+    color: black;
+    text-decoration: none;
+}
+
+#index_information h3:hover{
+    background-color: #228E96;
+}
