@@ -108,7 +108,7 @@ footer {
     text-align: center;
     float: left;
     background-color: #29ACB9;
-    margin-top: 600px;
+    margin-top: -400px;
     bottom: 0px;
     z-index: 10;
     clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
@@ -193,4 +193,48 @@ footer a {
 
 #index_information h3:hover{
     background-color: #228E96;
+}
+
+#index_waiata {
+    width: 1700px;
+    height: 1150px;
+    margin: 200px 0px 0px 0px;
+    text-align: center;
+}
+
+#index_waiata h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#index_waiata h2 {
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+#index_waiata img {
+    width: 1700px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#index_waiata #content {
+    width: 800px;
+    height: 900px;
+    border-radius: 20px;
+    background-color: #EAF7F6;
+    margin: -997px 0px 0px 0px;
+    position: absolute;
+    padding: 50px 0px 0px 0px;
+    opacity: 80%;
+}
+
+#index_waiata h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#index_waiata #heading {
+    text-decoration: underline;
+    padding-top: 20px;
 }
