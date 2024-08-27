@@ -293,7 +293,7 @@ footer#gallery {
 #pageContainer_infoOne {
     width: 1700px;
     background-color: #ABDBE3;
-    height: 3980px;
+    height: 4000px;
     margin: 0 auto;
     margin-top: -10px;
     box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175);
@@ -323,16 +323,108 @@ footer#infoOne {
     text-align: center;
     float: left;
     background-color: #29ACB9;
-    margin-top: 500px;
+    margin-top: 2000px;
     bottom: 0px;
     z-index: 10;
     clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
 }
 
-#geology {
+#pupuke_geology {
     width: 700px;
-    height: 500px;
+    height: 470px;
     background-color: #EAF7F6;
     margin-top: 150px;
+    float: left;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
+#pupuke_geology h1 {
+    text-align: center;
+    font-size: 25pt;
+    margin-top: -70px;
+}
+
+#pupuke_info p {
+    font-size: 20px;
+}
+
+#pupuke_geology p {
+    padding: 40px;
+}
+
+#pupuke_geology img {
+    width: 600px;
+    height: 350px;
+    margin: -400px 0px 0px 900px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+#pupuke_maorilegend {
+    width: 700px;
+    height: 400px;
+    background-color: #EAF7F6;
+    position: absolute;
+    float: right;
+    margin: 800px 0px 0px 1000px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#pupuke_maorilegend h1 {
+    text-align: center;
+    font-size: 25pt;
+    margin-top: -70px;
+}
+
+#pupuke_maorilegend p {
+    padding: 40px;
+}
+
+#pupuke_maorilegend img {
+    width: 550px;
+    border-radius: 20px;
+    margin: -400px 0px 0px -800px;
+}
+
+#pupuke_humanuse {
+    width: 1700px;
+    height: 390px;
+    background-color: #EAF7F6;
+    margin: 1450px 0px 0px 0px;
+    position: absolute;
+}
+
+#pupuke_humanuse h1 {
+    margin-top: -70px;
+    margin-bottom: 70px;
+    font-size: 25pt;
+    text-align: center;
+}
+
+#pupuke_humanuse p {
+    padding: 10px 250px;
+    text-align: center;
+}
+
+#pupuke_moreinfo {
+    height: 50px;
+    width: 200px;
+    background-color: #EAF7F6;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1900px 0px 0px 750px;
+    padding-top: 10px;
+}
+
+#pupuke_moreinfo a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    font-weight: 800;
+}
+
+#pupuke_moreinfo:hover {
+    background-color: #228E96;
+}
