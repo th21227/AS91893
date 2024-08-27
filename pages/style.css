@@ -242,14 +242,14 @@ footer a {
 #pageContainer_gallery {
     width: 1700px;
     background-color: #ABDBE3;
-    height: 3000px;
+    height: 3980px;
     margin: 0 auto;
     margin-top: -10px;
     box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175);
     margin-bottom: -10px;
 }
 
-#gallery_page_container {
+#gallery_container {
     width: 1700px;
     margin: 0 auto;
     float: left;
@@ -262,7 +262,7 @@ footer#gallery {
     text-align: center;
     float: left;
     background-color: #29ACB9;
-    margin-top: 800px;
+    margin-top: -320px;
     bottom: 0px;
     z-index: 10;
     clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
