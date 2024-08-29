@@ -519,3 +519,75 @@ footer#infoOne {
     border-radius: 20px;
     font-size: 20px;
 }
+
+#pageContainer_infoTwo {
+    width: 1700px;
+    background-color: #ABDBE3;
+    height: 3000px;
+    margin: 0 auto;
+    margin-top: -10px;
+    box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175);
+    margin-bottom: -10px;
+}
+
+footer#infoTwo {
+    width: 1700px;
+    text-align: center;
+    float: left;
+    background-color: #29ACB9;
+    margin-top: 500px;
+    bottom: 0px;
+    z-index: 10;
+    clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
+}
+
+#ngatipaoa_infoOne {
+    width: 1100px;
+    margin: 150px 0px 0px 250px;
+    background-color: #EAF7F6;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#ngatipaoa_info #headerImage h1 {
+    color: white;
+}
+
+#ngatipaoa_history {
+    width: 1600px;
+    margin: 150px 0px 0px 0px;
+    background-color: #EAF7F6;
+    padding: 50px;
+    font-size: 20px;
+}
+
+#ngatipaoa_history h1 {
+    margin: -120px 0px 80px 200px;
+}
+
+#ngatipaoa_history p {
+    padding: 0px 100px;
+}
+
+#ngatipaoa_moreinfo {
+    height: 50px;
+    width: 200px;
+    background-color: #EAF7F6;
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px 0px 0px 750px;
+    padding-top: 10px;
+}
+
+#ngatipaoa_moreinfo a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    font-weight: 800;
+}
+
+#ngatiapaoa_moreinfo:hover {
+    background-color: #228E96;
+}
