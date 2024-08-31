@@ -1,45 +1,56 @@
+/* Full page styles */
 body {
+    /* Sets a total website font and background color */
     font-family: 'Segoe UI';
     background-color: #EAF7F6;
 }
 
+/* Container for the entire index.html page */
 #pageContainer_index {
+    /* Fixed width, background color, height, and centering */
     width: 1700px;
     background-color: #ABDBE3;
     height: 3000px;
     margin: 0 auto;
     margin-top: -10px;
-    box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175);
+    box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175); /* Adds shadow effect */
     margin-bottom: -10px;
 }
 
+/* Header container styling */
 #headerContainer {
+    /* Fixed header width and height with centered text and custom shape */
     width: 1700px;
     height: 450px;
     text-align: center;
     float: left;
     background-color: #29ACB9;
-    position: fixed;
-    z-index: 2;
-    clip-path: polygon(0 0, 100% 0, 100% 32%, 0 54%);
+    position: fixed; /* Keeps header in place while scrolling*/
+    z-index: 2; /* Ensures header stays above other content */
+    clip-path: polygon(0 0, 100% 0, 100% 32%, 0 54%); /*Creates angled shape for header*/
 }
 
+/* Logo container styling */
 #logoContainer {
+    /* Circle logo with background */
     clip-path: circle(53% at 35% 31%);
     background-color: #EAF7F6;
     width: 350px;
     height: 350px;
     z-index: 3;
-    position: fixed;
+    position: fixed; /* Keeps logo in place while scrolling */
 }
 
+/* Navigation bar styling */
 nav {
     height: 90px;
     clear: both;
     text-align: center;
 }
 
+/* Navigation list styling */
 nav ul {
+    /* Aligns navigation menu horizontally and removes default styling */
     display: block;
     text-decoration: none;
     text-align: center;
@@ -48,14 +59,17 @@ nav ul {
     margin-top: -15px;
 }
 
+/* navigation items */
 nav li {
-    display: inline-block;
+    display: inline-block; /* Displays menu in a row */
 }
 
+/* Styling for navigation links */
 nav li a {
+    /* Styles for individual nav links */
     display: block;
     width: 160px;
-    text-decoration: none;
+    text-decoration: none; /* Removes underline */
     text-align: center;
     font-size: 10pt;
     font-weight: 600;
@@ -63,47 +77,53 @@ nav li a {
     background-color: #ABDBE3;
     margin-right: 20px;
     border-radius: 20px;
-    padding: 30px 5px 20px 5px;
+    padding: 30px 5px 20px 5px; /* Adds padding to the link area */
 }
 
+/* Hover effect for navigation links */
 nav li a:hover {
-    box-shadow: 0px 0px 30px 10px #228E96;
+    box-shadow: 0px 0px 30px 10px #228E96; /* Adds shadow on hover */
 }
 
+/* Logo image styling */
 #logo {
     width: 270px;
-    padding-top: 10px;
+    padding-top: 10px; /* Adds space above the logo */
 }
 
-
+/* Dropdown menu styling */
 .dropdown-content {
-    display: none;
+    display: none; /* Initially hides the dropdown menu */
     position: absolute;
     border-radius: 20px;
 }
-  
 
+/* Dropdown links styling */
 .dropdown-content a {
+    /* Styles for dropdown links */
     width: 130px;
     padding: 5px 0px;
     border-radius: 0px;
     margin-left: 20px;
     margin-top: -1px;
     font-weight: 600;
-    border-top: 1px solid black;
+    border-top: 1px solid black; /* Adds a border between items */
 }
 
-
+/* Display dropdown content on hover */
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: block; /* Makes dropdown visible when hovered */
 }
 
+/* Hover effect for dropdown links */
 .dropdown-content a:hover {
-    background-color: #228E96;
-    color: white;
+    background-color: #228E96; /* Changes background on hover */
+    color: white; /* Changes text color on hover */
 }
 
+/* Footer styling for the index.html page */
 footer#index {
+    /* Custom shape and background color for the footer */
     width: 1700px;
     text-align: center;
     float: left;
@@ -111,34 +131,39 @@ footer#index {
     margin-top: -400px;
     bottom: 0px;
     z-index: 10;
-    clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%); /* Creates custom polygon shape */
 }
 
+/* Footer heading text styling */
 footer h3 {
     height: 100px;
-    padding-top: 300px;
+    padding-top: 300px; /* Adjusts the vertical positioning */
     margin: 0px;
     color: white;
     font-weight: 600;
 }
 
+/* Footer links styling */
 footer a {
-    color: black;
+    color: black; /* Black text color for footer links */
 }
 
+/* Header image styling */
 #headerImage img {
-    width: 1700px;
-    margin-top: -100px;
+    width: 1700px; /* Full-width header image */
+    margin-top: -100px; /* Adjusts position */
 }
 
+/* Header title styling */
 #headerImage h1 {
-    margin-top: -150px;
+    margin-top: -150px; /* Adjusts title positioning */
     clear: both;
     text-align: center;
     font-size: 30pt;
-    font-weight: 800;
+    font-weight: 800; /* Bold text */
 }
 
+/* "Our Vision" section styling on the index page */
 #index_ourVision_content {
     width: 900px;
     margin: 150px 0px 0px 350px;
@@ -149,6 +174,7 @@ footer a {
     font-size: 20px;
 }
 
+/* Information section styling */
 #index_information {
     width: 1000px;
     text-align: center;
@@ -156,21 +182,25 @@ footer a {
     margin: 80px 0px 0px 350px;
 }
 
+/* Information section heading styling */
 #index_information h1 {
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 800; /* Bold text */
 }
 
+/* Image styling in the information section */
 #index_information img {
     width: 400px;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 20px; /* Rounded corners */
 }
 
+/* Information list styling */
 #index_information ul {
     margin-top: 50px;
 }
 
+/* Information list items */
 #index_information li {
     float: left;
     display: block;
@@ -178,23 +208,27 @@ footer a {
     height: 300px;
 }
 
+/* Styling for the clickable headings */
 #index_information h3 {
     width: 100px;
     padding: 3px;
     margin: 20px 0px 0px 147px;
     background-color: #EAF7F6;
-    border-radius: 20px;
+    border-radius: 20px; /* Rounded corners */
 }
 
+/* Styling for links in the information section */
 #index_information a {
     color: black;
-    text-decoration: none;
+    text-decoration: none; /* Removes underline */
 }
 
-#index_information h3:hover{
-    background-color: #228E96;
+/* Hover effect for headings in the information section */
+#index_information h3:hover {
+    background-color: #228E96; /* Changes background color on hover */
 }
 
+/* Waiata section styling */
 #index_waiata {
     width: 1700px;
     height: 1150px;
@@ -202,43 +236,50 @@ footer a {
     text-align: center;
 }
 
+/* Waiata section heading */
 #index_waiata h1 {
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 800; /* Bold text */
 }
 
+/* Subheading in Waiata section */
 #index_waiata h2 {
     font-weight: 600;
-    margin-top: -20px;
+    margin-top: -20px; /* Adjusts position */
 }
 
+/* Waiata section images */
 #index_waiata img {
     width: 1700px;
-    border-radius: 20px;
+    border-radius: 20px; /* Rounded corners */
     margin-top: 20px;
 }
 
+/* Content container in Waiata section */
 #index_waiata #content {
     width: 800px;
     height: 900px;
-    border-radius: 20px;
+    border-radius: 20px; /* Rounded corners */
     background-color: #EAF7F6;
     margin: -997px 0px 0px 0px;
-    position: absolute;
+    position: absolute; /* Positions content over background */
     padding: 50px 0px 0px 0px;
-    opacity: 80%;
+    opacity: 80%; /* Semi-transparent background */
 }
 
+/* Text styling in Waiata section */
 #index_waiata h3 {
     font-size: 30px;
     font-weight: 400;
 }
 
+/* Underlined heading in Waiata section */
 #index_waiata #heading {
     text-decoration: underline;
     padding-top: 20px;
 }
 
+/* Contains the whole gallery page */
 #pageContainer_gallery {
     width: 1700px;
     background-color: #ABDBE3;
@@ -249,7 +290,7 @@ footer a {
     margin-bottom: -10px;
 }
 
-
+/* contains the images in gallery */
 #gallery_container {
     width: 1700px;
     margin: 0 auto;
@@ -258,6 +299,7 @@ footer a {
     background-color: black;
 }
 
+/* sets the footer height for gallery.html */
 footer#gallery {
     width: 1700px;
     text-align: center;
@@ -269,14 +311,16 @@ footer#gallery {
     clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
 }
 
+/* sizes each image space */
 .thumb {
     width: 560px;
     height: 350px;
     padding: 3px;
     float: left;
-    object-fit: cover;
+    object-fit: cover; /* sets images to stay orginal size and cover the space without stretching */
 }
 
+/* header box for the top of the page */
 #gallery_heading {
     width: 1700px;
     height: 600px;
@@ -284,6 +328,7 @@ footer#gallery {
     color: white;
 }
 
+/* for just the h1 content */
 #gallery_heading h1 {
     padding-top: 450px;
     margin-top: 0px;
@@ -293,6 +338,7 @@ footer#gallery {
     font-weight: 800;
 }
 
+/* contains the whole of informationOne.html */
 #pageContainer_infoOne {
     width: 1700px;
     background-color: #ABDBE3;
@@ -303,6 +349,7 @@ footer#gallery {
     margin-bottom: -10px;
 }
 
+/* first set of information on pupuke */
 #pupuke_infoOne {
     width: 1200px;
     margin: 150px 0px 0px 200px;
@@ -313,14 +360,17 @@ footer#gallery {
     font-size: 20px;
 }
 
+/* image at the top of the page */
 #pupuke_info #headerImage img {
     margin-top: -75px;
 }
 
+/* colour of the text on the header */
 #pupuke_info #headerImage h1 {
     color: white;
 }
 
+/* sets footer height for infoOne */
 footer#infoOne {
     width: 1700px;
     text-align: center;
@@ -332,6 +382,7 @@ footer#infoOne {
     clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
 }
 
+/* information */
 #pupuke_geology {
     width: 700px;
     height: 470px;
@@ -342,16 +393,19 @@ footer#infoOne {
     border-bottom-right-radius: 20px;
 }
 
+/* information */
 #pupuke_geology h1 {
     text-align: center;
     font-size: 25pt;
     margin-top: -70px;
 }
 
+/* changes paragraph size for whole of pupuke section */
 #pupuke_info p {
     font-size: 20px;
 }
 
+/* paragraph padding in geology */
 #pupuke_geology p {
     padding: 40px;
 }
@@ -432,11 +486,13 @@ footer#infoOne {
     background-color: #228E96;
 }
 
+/* rangi section header */
 #rangi_headerImage img {
     width: 1700px;
     margin-top: 100px;
 }
 
+/* positions text over header */
 #rangi_headerImage h1 {
     font-size: 25pt;
     margin-top: -120px;
@@ -449,7 +505,7 @@ footer#infoOne {
     text-align: center;
 }
 
-
+/* sets constants for the section */
 #rangi_infoOne {
     width: 1200px;
     margin: 125px 0px 0px 200px;
@@ -460,6 +516,7 @@ footer#infoOne {
     font-size: 20px;
 }
 
+/* information */
 #rangi_maori {
     width: 500px;
     height: 400px;
@@ -521,6 +578,7 @@ footer#infoOne {
     font-size: 20px;
 }
 
+/* contains whole of informationTwo.html */
 #pageContainer_infoTwo {
     width: 1700px;
     background-color: #ABDBE3;
@@ -530,6 +588,7 @@ footer#infoOne {
     box-shadow: 0px 0px 48px 30px rgba(0, 0, 0, 0.175);
 }
 
+/* sets footer heights for infoTwo */
 footer#infoTwo {
     width: 1700px;
     text-align: center;
@@ -540,6 +599,7 @@ footer#infoTwo {
     clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
 }
 
+/* ngati paoa section */
 #ngatipaoa_infoOne {
     width: 1100px;
     margin: 150px 0px 0px 250px;
@@ -587,10 +647,11 @@ footer#infoTwo {
     font-weight: 800;
 }
 
-#ngatiapaoa_moreinfo:hover {
+#ngatipaoa_moreinfo:hover {
     background-color: #228E96;
 }
 
+/* waitemata harbour section */
 #harbour_headerImage img {
     width: 1700px;
     margin-top: 100px;
