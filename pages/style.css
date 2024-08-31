@@ -533,9 +533,8 @@ footer#infoOne {
 footer#infoTwo {
     width: 1700px;
     text-align: center;
-    float: left;
     background-color: #29ACB9;
-    margin-top: -450px;
+    margin-top: -200px;
     bottom: 0px;
     z-index: 10;
     clip-path: polygon(0 54%, 100% 32%, 100% 100%, 0% 100%);
@@ -652,8 +651,8 @@ footer#infoTwo {
 
 #harbour_history {
     width: 1700px;
-    height: 1150px;
-    margin: 700px 0px 0px 0px;
+    height: 900px;
+    margin: 700px 0px -100px 0px;
     text-align: center;
 }
 
